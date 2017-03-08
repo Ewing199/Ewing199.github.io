@@ -18,7 +18,7 @@ More info:">
 <meta property="og:description" content="笔记
 Hexo的安装步骤小结12345第一步：安装NODE，GIT，申请Github账号第二步：npm创建hexo：$sudo npm install -g hexo第三步：创建一个文件夹并且在该目录下初始化：hexo init第四步：hexo generate 生成静态页面第五步：hexo server启动本地服务（可通过http://localhost:4000进行测试）
 More info:">
-<meta property="og:updated_time" content="2017-03-08T12:51:58.002Z">
+<meta property="og:updated_time" content="2017-03-08T13:07:54.448Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Test Markdown">
 <meta name="twitter:description" content="笔记
@@ -52,7 +52,7 @@ More info:">
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="D:\blog\themes\next\source\img\avatar.jpg" class="js-avatar">
+			<img src="\source\upload\avatar.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">Ewing Yang</a></h1>
@@ -110,7 +110,7 @@ More info:">
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="D:\blog\themes\next\source\img\avatar.jpg" class="js-avatar">
+				<img src="\source\upload\avatar.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">Ewing Yang</h1>
@@ -183,8 +183,12 @@ More info:">
 <h2 id="Hexo的安装步骤小结"><a href="#Hexo的安装步骤小结" class="headerlink" title="Hexo的安装步骤小结"></a>Hexo的安装步骤小结</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">第一步：安装NODE，GIT，申请Github账号</div><div class="line">第二步：npm创建hexo：<span class="variable">$sudo</span> npm install -g hexo</div><div class="line">第三步：创建一个文件夹并且在该目录下初始化：hexo init</div><div class="line">第四步：hexo generate 生成静态页面</div><div class="line">第五步：hexo server启动本地服务（可通过http://localhost:4000进行测试）</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="建立关联"><a href="#建立关联" class="headerlink" title="建立关联"></a>建立关联</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim _config.yml</div></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  		<span class="built_in">type</span>: git</div><div class="line">  		repository: https://github.com/Ewing199/Ewing199.github.io.git</div><div class="line">        branch: master<span class="string">'</span></div></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">执行    </div><div class="line">		npm install hexo-deployer-git --save</div><div class="line">		hexo deploy完成部署</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  		<span class="built_in">type</span>: git</div><div class="line">  		repository: https://github.com/Ewing199/Ewing199.github.io.git</div><div class="line">  		branch: master</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">执行    </div><div class="line">		npm install hexo-deployer-git --save</div><div class="line">		hexo deploy</div></pre></td></tr></table></figure>
+<p>###完成部署</p>
+<p>##更换主题相关操作</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">在站点目录下的_config.yml里的Theme字段后写上解压在Theme文件夹下的主题名称</div></pre></td></tr></table></figure>
+<p>#前往<a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">文档</a>查看所有相关的字段信息#</p>
 
       
 
