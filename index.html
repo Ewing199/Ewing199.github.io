@@ -157,9 +157,28 @@
     <article id="post-安装步骤" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/08/安装步骤/">Test Markdown</a>
+    </h1>
+  
+
+        
+        <a href="/2017/03/08/安装步骤/" class="archive-article-date">
+  	<time datetime="2017-03-08T11:57:08.648Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-08</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>第一步：安装node和git以及申请个github账号</p>
+        <p><strong><em>笔记</em></strong></p>
+<h2 id="Hexo的安装步骤小结"><a href="#Hexo的安装步骤小结" class="headerlink" title="Hexo的安装步骤小结"></a>Hexo的安装步骤小结</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">第一步：安装NODE，GIT，申请Github账号</div><div class="line">第二步：npm创建hexo：<span class="variable">$sudo</span> npm install -g hexo</div><div class="line">第三步：创建一个文件夹并且在该目录下初始化：hexo init</div><div class="line">第四步：hexo generate 生成静态页面</div><div class="line">第五步：hexo server启动本地服务（可通过http://localhost:4000进行测试）</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="建立关联"><a href="#建立关联" class="headerlink" title="建立关联"></a>建立关联</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim _config.yml</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">@requires_authorization</div><div class="line">class SomeClass:</div><div class="line">    pass</div><div class="line"></div><div class="line">if __name__ == '__main__':</div><div class="line">    # A comment</div><div class="line">    print 'deploy:</div><div class="line">  			type: git</div><div class="line">  			repository: https://github.com/Ewing199/Ewing199.github.io.git</div><div class="line">            branch: master'</div></pre></td></tr></table></figure>
 
       
 
